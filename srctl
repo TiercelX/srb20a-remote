@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+script_path=$(readlink -f -- "$0")
+base_dir=$(cd -- "$(dirname -- "$script_path")" && pwd)
+exec "$base_dir/.venv/bin/python" "$base_dir/srctl_cli.py" "$@"

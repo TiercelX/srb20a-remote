@@ -1,0 +1,7 @@
+/dist/
+/build/
+/__pycache__/
+*.pyc
+sr_b20a_gui_en.py
+mbp_gui_en.py
+.venv/
